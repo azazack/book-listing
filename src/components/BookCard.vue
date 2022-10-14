@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 interface props {
   book: {
-    title: String;
-    authorName: String;
-    imageUrl: String;
+    title: string;
+    authorName: string;
+    imageUrl: string;
   };
 }
 const props = defineProps<props>();
